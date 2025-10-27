@@ -1,0 +1,487 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e1]:
+  - link "Skip to main content" [ref=e2] [cursor=pointer]:
+    - /url: "#main-content"
+  - banner [ref=e3]:
+    - generic [ref=e4]:
+      - link "home" [ref=e6] [cursor=pointer]:
+        - /url: /
+        - img [ref=e7]
+      - generic [ref=e9]:
+        - navigation "Main Navigation" [ref=e11]:
+          - list [ref=e12]:
+            - listitem [ref=e13]:
+              - button "For Individuals" [ref=e14] [cursor=pointer]:
+                - text: For Individuals
+                - img [ref=e16]
+            - listitem [ref=e18]:
+              - button "For Business" [ref=e19] [cursor=pointer]:
+                - text: For Business
+                - img [ref=e21]
+            - listitem [ref=e23]:
+              - button "Claims" [ref=e24] [cursor=pointer]:
+                - text: Claims
+                - img [ref=e26]
+            - listitem [ref=e28]:
+              - button "Prepare & Prevent" [ref=e29] [cursor=pointer]:
+                - text: Prepare & Prevent
+                - img [ref=e31]
+        - generic [ref=e33]:
+          - button "search" [ref=e35] [cursor=pointer]:
+            - img [ref=e36]
+          - link "Log in" [ref=e38] [cursor=pointer]:
+            - /url: https://signin.travelers.com/
+            - text: Log in
+            - img [ref=e39]
+    - navigation "secondary navigation" [ref=e41]:
+      - list [ref=e43]:
+        - listitem [ref=e44]:
+          - link "About" [ref=e45] [cursor=pointer]:
+            - /url: /about-travelers
+        - listitem [ref=e46]:
+          - link "Careers" [ref=e47] [cursor=pointer]:
+            - /url: https://careers.travelers.com/?_ga=2.1712306.2067520576.1539166870-148981798.1539166870
+        - listitem [ref=e48]:
+          - link "Agents" [ref=e49] [cursor=pointer]:
+            - /url: /foragents
+        - listitem [ref=e50]:
+          - link "Investors" [ref=e51] [cursor=pointer]:
+            - /url: https://investor.travelers.com/home/default.aspx
+        - listitem [ref=e52]:
+          - link "Sustainability" [ref=e53] [cursor=pointer]:
+            - /url: https://sustainability.travelers.com/
+        - listitem [ref=e54]:
+          - link "Contact Us" [ref=e55] [cursor=pointer]:
+            - /url: /contact-us
+  - main [ref=e56]:
+    - generic [ref=e57]:
+      - heading "Travelers has got you covered every day and when it matters most." [level=1] [ref=e58]
+      - generic [ref=e66]:
+        - generic [ref=e67]:
+          - heading "Personal insurance" [level=2] [ref=e68]
+          - heading "Find the insurance to fit your needs." [level=2] [ref=e69]
+          - generic [ref=e71]:
+            - generic [ref=e72]:
+              - generic [ref=e73]: Select a product
+              - combobox "Select a product" [ref=e74]:
+                - option "Car Insurance" [selected]: Auto
+                - option "Homeowners Insurance": Home
+                - option "Renters Insurance": Renters
+                - option "Auto + Home Insurance": Auto + Home
+                - option "Auto + Condo Insurance": Auto + Condo
+                - option "Auto + Renters Insurance": Auto + Renters
+                - option "Condo Insurance": Condo
+                - option "Boat & Yacht Insurance": Boat & Yacht
+                - option "Umbrella Insurance": Umbrella
+                - option "Jewelry & Valuable Items": Valuable Items
+                - option "Landlord Insurance": Landlord
+                - option "Weddings and Events Insurance": Wedding & Event
+                - option "Travel Insurance": Travel
+                - option "Pet Insurance": Pet
+                - option "Motorcycle Insurance": Motorcycle
+                - option "Flood Insurance": Flood
+            - generic [ref=e77]:
+              - generic [ref=e78]:
+                - generic [ref=e79]:
+                  - generic [ref=e80]: ZIP code
+                  - textbox "ZIP code" [active] [ref=e81]: "06094"
+                - button "Start a quote*" [ref=e82] [cursor=pointer]
+              - generic [ref=e84]:
+                - generic [ref=e85]:
+                  - text: or call to get a quote*
+                  - link "1-833-452-1135" [ref=e86] [cursor=pointer]:
+                    - /url: tel:+18334521135
+                - link "Continue a quote" [ref=e87] [cursor=pointer]:
+                  - /url: https://pijas.travelers.com/get-a-quote-now/entry.html?path=RETRIEVE&sponsor=directload
+        - generic [ref=e88]:
+          - heading "Business insurance" [level=2] [ref=e89]
+          - heading "Transforming risk to your business advantage." [level=2] [ref=e90]
+          - link "Find solutions" [ref=e91] [cursor=pointer]:
+            - /url: /business-insurance
+      - list "Quick Links" [ref=e94]:
+        - listitem [ref=e95]:
+          - img [ref=e96]
+          - link "Pay your bill" [ref=e98] [cursor=pointer]:
+            - /url: /pay-your-bill
+        - listitem [ref=e99]:
+          - img [ref=e100]
+          - link "File a claim" [ref=e102] [cursor=pointer]:
+            - /url: /claims/file-claim
+        - listitem [ref=e103]:
+          - img [ref=e104]
+          - link "Find an agent" [ref=e106] [cursor=pointer]:
+            - /url: https://agent.travelers.com/search
+        - listitem [ref=e107]:
+          - img [ref=e108]
+          - link "Contact us" [ref=e110] [cursor=pointer]:
+            - /url: /contact-us
+      - generic [ref=e112]:
+        - generic [ref=e115]:
+          - figure [ref=e117]
+          - generic [ref=e120]:
+            - heading "Travelers personal insurance" [level=2] [ref=e121]
+            - heading "For individuals and families" [level=2] [ref=e122]
+            - generic [ref=e123]:
+              - paragraph [ref=e124]: You care about life's important moments. Travelers cares about protecting them.
+              - paragraph [ref=e125]:
+                - strong [ref=e126]: Explore products
+            - generic [ref=e127]:
+              - list "info-cta" [ref=e129]:
+                - listitem [ref=e130]:
+                  - link "Auto" [ref=e131] [cursor=pointer]:
+                    - /url: /car-insurance
+                - listitem [ref=e132]:
+                  - link "Boat & yacht" [ref=e133] [cursor=pointer]:
+                    - /url: /boat-yacht-insurance
+                - listitem [ref=e134]:
+                  - link "Condo" [ref=e135] [cursor=pointer]:
+                    - /url: /condo-insurance
+                - listitem [ref=e136]:
+                  - link "Flood" [ref=e137] [cursor=pointer]:
+                    - /url: /flood-insurance
+                - listitem [ref=e138]:
+                  - link "Home" [ref=e139] [cursor=pointer]:
+                    - /url: /home-insurance
+                - listitem [ref=e140]:
+                  - link "Landlord" [ref=e141] [cursor=pointer]:
+                    - /url: /landlord-insurance
+                - listitem [ref=e142]:
+                  - link "Motorcycle" [ref=e143] [cursor=pointer]:
+                    - /url: /motorcycle-insurance
+              - list "info-cta" [ref=e145]:
+                - listitem [ref=e146]:
+                  - link "Pet" [ref=e147] [cursor=pointer]:
+                    - /url: /pet-insurance
+                - listitem [ref=e148]:
+                  - link "Renters" [ref=e149] [cursor=pointer]:
+                    - /url: /renters-insurance
+                - listitem [ref=e150]:
+                  - link "Travel" [ref=e151] [cursor=pointer]:
+                    - /url: /travel-insurance
+                - listitem [ref=e152]:
+                  - link "Umbrella" [ref=e153] [cursor=pointer]:
+                    - /url: /umbrella-insurance
+                - listitem [ref=e154]:
+                  - link "Valuable items" [ref=e155] [cursor=pointer]:
+                    - /url: /jewelry-insurance
+                - listitem [ref=e156]:
+                  - link "Wedding & event" [ref=e157] [cursor=pointer]:
+                    - /url: /event-insurance
+            - link "More products" [ref=e159] [cursor=pointer]:
+              - /url: /personal-insurance
+        - generic [ref=e162]:
+          - figure [ref=e164]
+          - generic [ref=e167]:
+            - heading "Travelers business insurance" [level=2] [ref=e168]
+            - heading "For businesses and organizations" [level=2] [ref=e169]
+            - generic [ref=e170]:
+              - paragraph [ref=e171]: You face risks to grow your business and protect your organization. Travelers helps manage those risks.
+              - paragraph [ref=e172]:
+                - strong [ref=e173]: Explore products
+            - generic [ref=e174]:
+              - list "info-cta" [ref=e176]:
+                - listitem [ref=e177]:
+                  - link "Commercial auto & trucking" [ref=e178] [cursor=pointer]:
+                    - /url: /business-insurance/commercial-auto
+                - listitem [ref=e179]:
+                  - link "Commercial umbrella & excess liability" [ref=e180] [cursor=pointer]:
+                    - /url: /business-insurance/commercial-umbrella
+                - listitem [ref=e181]:
+                  - link "Cyber" [ref=e182] [cursor=pointer]:
+                    - /url: /business-insurance/cyber-insurance
+                - listitem [ref=e183]:
+                  - link "General liability" [ref=e184] [cursor=pointer]:
+                    - /url: /business-insurance/general-liability
+                - listitem [ref=e185]:
+                  - link "Global insurance" [ref=e186] [cursor=pointer]:
+                    - /url: /business-insurance/global
+              - list "info-cta" [ref=e188]:
+                - listitem [ref=e189]:
+                  - link "Management & professional liability" [ref=e190] [cursor=pointer]:
+                    - /url: /business-insurance/professional-liability-insurance
+                - listitem [ref=e191]:
+                  - link "Property" [ref=e192] [cursor=pointer]:
+                    - /url: /business-insurance/property
+                - listitem [ref=e193]:
+                  - link "Small business owner's policy" [ref=e194] [cursor=pointer]:
+                    - /url: /business-insurance/business-owners-policy
+                - listitem [ref=e195]:
+                  - link "Surety bonds" [ref=e196] [cursor=pointer]:
+                    - /url: /surety-bond
+                - listitem [ref=e197]:
+                  - link "Workers compensation" [ref=e198] [cursor=pointer]:
+                    - /url: /business-insurance/workers-compensation
+            - link "More products" [ref=e200] [cursor=pointer]:
+              - /url: /business-insurance/products-services
+        - generic [ref=e205]:
+          - heading "Industries we protect" [level=2] [ref=e206]
+          - heading "Rely on our advanced industry and risk expertise to help you tailor your business coverage." [level=2] [ref=e207]
+        - generic [ref=e211]:
+          - generic [ref=e212]:
+            - heading "Manufacturing" [level=4] [ref=e215]:
+              - link "Manufacturing" [ref=e216] [cursor=pointer]:
+                - /url: /business-insurance/manufacturers
+                - text: Insurance for manufacturing
+            - heading "Energy insurance" [level=4] [ref=e219]:
+              - link "Energy insurance" [ref=e220] [cursor=pointer]:
+                - /url: /business-insurance/energy
+                - text: Insurance for energy
+            - heading "Financial institutions" [level=4] [ref=e223]:
+              - link "Financial institutions" [ref=e224] [cursor=pointer]:
+                - /url: /business-insurance/financial-institutions
+                - text: Insurance for financial institutions
+            - heading "Technology" [level=4] [ref=e227]:
+              - link "Technology" [ref=e228] [cursor=pointer]:
+                - /url: /business-insurance/technology
+                - text: Insurance for technology
+          - link "Explore all industries" [ref=e231] [cursor=pointer]:
+            - /url: /business-insurance/industries
+        - generic [ref=e236]:
+          - figure [ref=e238]
+          - generic [ref=e239]:
+            - heading "Any questions so far? We can help." [level=3] [ref=e240]
+            - paragraph [ref=e243]: Reach out to a Travelers representative or local independent agent.
+          - link "Find an agent" [ref=e245] [cursor=pointer]:
+            - /url: https://agent.travelers.com/search
+        - generic [ref=e248]:
+          - generic [ref=e253]:
+            - generic [ref=e254]:
+              - heading "File a claim" [level=3] [ref=e256]:
+                - link "File a claim" [ref=e257] [cursor=pointer]:
+                  - /url: /claims/file-claim
+              - img [ref=e258]
+            - generic [ref=e260]:
+              - heading "Upload a file" [level=3] [ref=e262]:
+                - link "Upload a file" [ref=e263] [cursor=pointer]:
+                  - /url: https://www.travelers.com/claimuploadcenter/
+              - img [ref=e264]
+            - generic [ref=e266]:
+              - heading "Check status" [level=3] [ref=e268]:
+                - link "Check status" [ref=e269] [cursor=pointer]:
+                  - /url: /claims/check-your-claim-status
+              - img [ref=e270]
+            - generic [ref=e272]:
+              - heading "Find a provider" [level=3] [ref=e274]:
+                - link "Find a provider" [ref=e275] [cursor=pointer]:
+                  - /url: https://claim-services.travelers.com/claims/claim-services
+              - img [ref=e276]
+          - generic [ref=e280]:
+            - heading "Claim Center" [level=5] [ref=e281]
+            - heading "Everything you need at your fingertips" [level=2] [ref=e282]
+            - paragraph [ref=e284]:
+              - generic [ref=e285]: Our easy to use tools let you manage your claim experience.
+            - link "claim center button" [ref=e287] [cursor=pointer]:
+              - /url: /claims
+              - text: Visit Claim Center
+        - generic [ref=e292]:
+          - heading "Why Travelers" [level=2] [ref=e293]
+          - heading "170+ years of experience. 30,000 people who care." [level=2] [ref=e294]
+        - generic [ref=e298]:
+          - generic [ref=e299]:
+            - generic [ref=e301]:
+              - heading "Sustainability" [level=4] [ref=e302]:
+                - link "Sustainability" [ref=e303] [cursor=pointer]:
+                  - /url: https://sustainability.travelers.com/
+              - paragraph [ref=e304]: Here, sustainability means performing today, transforming for tomorrow and fulfilling our promise to our customers, communities and employees.
+            - generic [ref=e306]:
+              - heading "Diversity & Inclusion" [level=4] [ref=e307]:
+                - link "Diversity & Inclusion" [ref=e308] [cursor=pointer]:
+                  - /url: /about-travelers/diversity
+              - paragraph [ref=e309]: We attract and retain the best employees from the broadest talent pool and foster an inclusive environment where each individual can develop and thrive.
+            - generic [ref=e311]:
+              - heading "Community" [level=4] [ref=e312]:
+                - link "Community" [ref=e313] [cursor=pointer]:
+                  - /url: /about-travelers/community
+              - paragraph [ref=e314]: Travelers builds strong communities through giving and volunteerism to support educational and economic opportunities for all.
+            - generic [ref=e316]:
+              - heading "Travelers Institute" [level=4] [ref=e317]:
+                - link "Travelers Institute" [ref=e318] [cursor=pointer]:
+                  - /url: https://www.travelers.com/travelers-institute
+              - paragraph [ref=e319]: We bring industry thought leadership and analysis to help address the most pressing challenges facing our industries, our customers and the communities we serve.
+          - link "More about Travelers" [ref=e322] [cursor=pointer]:
+            - /url: /about-travelers
+        - generic [ref=e325]:
+          - heading "Featured content" [level=2] [ref=e329]
+          - generic [ref=e330]:
+            - figure [ref=e332]
+            - generic [ref=e335]:
+              - heading "Care when it matters most. And to us, it always matters." [level=3] [ref=e336]
+              - paragraph [ref=e337]: A single act of care holds the power to alter a week, shape an outcome, or even transform a lifetime. Here are stories of life-changing care from real Travelers employees, inspired by true events.
+              - paragraph [ref=e338]:
+                - link "Watch films" [ref=e339] [cursor=pointer]:
+                  - /url: /about-travelers/commercials
+        - generic [ref=e344]:
+          - heading "Prepare & Prevent" [level=2] [ref=e345]
+          - heading "Insights to help you manage risks at home, work and on the road" [level=3] [ref=e346]
+        - generic [ref=e351]:
+          - generic [ref=e352]:
+            - generic [ref=e353]:
+              - heading "Resources for Traveling on the Road" [level=3] [ref=e354]
+              - heading "What to Do if You're in a Car Accident" [level=4] [ref=e355]:
+                - link "What to Do if You're in a Car Accident" [ref=e356] [cursor=pointer]:
+                  - /url: /resources/auto/travel/what-to-do-if-you-are-in-a-car-accident
+              - paragraph [ref=e357]: No one likes to think about the prospect of being in a car accident, but if you think ahead and understand what steps to take, you may feel better prepared for the unexpected.
+            - generic [ref=e359]:
+              - img [ref=e360]
+              - text: 3 minutes
+          - generic [ref=e362]:
+            - generic [ref=e363]:
+              - heading "Construction Resources" [level=3] [ref=e364]
+              - heading "5 Innovations Impacting Construction Job Site Safety" [level=4] [ref=e365]:
+                - link "5 Innovations Impacting Construction Job Site Safety" [ref=e366] [cursor=pointer]:
+                  - /url: /resources/business-industries/construction/innovations-construction-job-site-safety
+              - paragraph [ref=e367]: Construction job sites can present workers with a variety of hazards. Explore five areas of innovation impacting construction job site safety.
+            - generic [ref=e369]:
+              - img [ref=e370]
+              - text: 6 minutes
+          - generic [ref=e372]:
+            - generic [ref=e373]:
+              - heading "Resources for Nonprofit Organizations" [level=3] [ref=e374]
+              - heading "5 Tips for Recruiting Nonprofit Board Members" [level=4] [ref=e375]:
+                - link "5 Tips for Recruiting Nonprofit Board Members" [ref=e376] [cursor=pointer]:
+                  - /url: /resources/business-industries/nonprofit/5-tips-for-recruiting-nonprofit-board-members
+              - paragraph [ref=e377]: Recruiting nonprofit board members is challenging. Get recruitment ideas for filling those seats.
+            - generic [ref=e379]:
+              - img [ref=e380]
+              - text: 5 minutes
+          - generic [ref=e382]:
+            - generic [ref=e383]:
+              - heading "Small Business Resources" [level=3] [ref=e384]
+              - heading "5 Interviewing Tips for Hiring Employees for Your Small Business" [level=4] [ref=e385]:
+                - link "5 Interviewing Tips for Hiring Employees for Your Small Business" [ref=e386] [cursor=pointer]:
+                  - /url: /resources/business-industries/small-business/5-interviewing-tips-for-hiring-for-your-small-business
+              - paragraph [ref=e387]: These interview tips can help you find qualified candidates for your small business.
+            - generic [ref=e389]:
+              - img [ref=e390]
+              - text: 4 minutes
+  - contentinfo [ref=e392]:
+    - generic [ref=e394]:
+      - generic [ref=e395]:
+        - img "Travelers umbrella logo." [ref=e396]
+        - paragraph [ref=e398]:
+          - text: Travelers and The Travelers Umbrella are registered trademarks of The Travelers Indemnity Company in the U.S. and other countries.
+          - text: ©2025 The Travelers Indemnity Company. All rights reserved.
+      - list [ref=e399]:
+        - listitem [ref=e400]:
+          - link "facebook icon link - Opens in a new window" [ref=e401] [cursor=pointer]:
+            - /url: https://www.facebook.com/travelers
+            - img [ref=e402]
+        - listitem [ref=e404]:
+          - link "Youtube icon link - Opens in a new window" [ref=e405] [cursor=pointer]:
+            - /url: http://www.youtube.com/user/TravelersInsurance
+            - img [ref=e406]
+        - listitem [ref=e408]:
+          - link "Twitter Icon link - Opens in a new window" [ref=e409] [cursor=pointer]:
+            - /url: http://twitter.com/Travelers
+            - img [ref=e410]
+        - listitem [ref=e412]:
+          - link "Linked In icon link - Opens in a new window" [ref=e413] [cursor=pointer]:
+            - /url: http://us.linkedin.com/company/travelers
+            - img [ref=e414]
+        - listitem [ref=e416]:
+          - link "Instagram icon link - Opens in a new window" [ref=e417] [cursor=pointer]:
+            - /url: http://www.instagram.com/travelersinsurance
+            - img [ref=e418]
+      - generic [ref=e420]:
+        - generic [ref=e421]:
+          - heading "Products & Services" [level=2] [ref=e422]
+          - list [ref=e423]:
+            - listitem [ref=e424]:
+              - link "personal insurance" [ref=e425] [cursor=pointer]:
+                - /url: /individuals
+                - text: Individuals & Families
+            - listitem [ref=e426]:
+              - link "For Business" [ref=e427] [cursor=pointer]:
+                - /url: /business-insurance
+                - text: Businesses
+            - listitem [ref=e428]:
+              - link "Claims Services link" [ref=e429] [cursor=pointer]:
+                - /url: /claims
+                - text: Claims
+            - listitem [ref=e430]:
+              - link "Prepare & Prevent" [ref=e431] [cursor=pointer]:
+                - /url: /resources
+        - generic [ref=e432]:
+          - heading "Our Company" [level=2] [ref=e433]
+          - list [ref=e434]:
+            - listitem [ref=e435]:
+              - link "About Travelers link" [ref=e436] [cursor=pointer]:
+                - /url: /about-travelers
+                - text: About Travelers
+            - listitem [ref=e437]:
+              - link "Careers link" [ref=e438] [cursor=pointer]:
+                - /url: https://careers.travelers.com/
+                - text: Careers
+            - listitem [ref=e439]:
+              - link "Investors" [ref=e440] [cursor=pointer]:
+                - /url: https://investor.travelers.com/home/default.aspx
+            - listitem [ref=e441]:
+              - link "Sustainability link" [ref=e442] [cursor=pointer]:
+                - /url: https://sustainability.travelers.com/
+                - text: Sustainability
+            - listitem [ref=e443]:
+              - link "Travelers Institute" [ref=e444] [cursor=pointer]:
+                - /url: https://www.travelers.com/travelers-institute/index
+        - generic [ref=e445]:
+          - heading "Connect" [level=2] [ref=e446]
+          - list [ref=e447]:
+            - listitem [ref=e448]:
+              - link "Contact Us link" [ref=e449] [cursor=pointer]:
+                - /url: /contact-us
+                - text: Contact Us
+            - listitem [ref=e450]:
+              - link "MyTravelers" [ref=e451] [cursor=pointer]:
+                - /url: /online-service
+                - text: MyTravelers
+                - superscript [ref=e452]: ®
+            - listitem [ref=e453]:
+              - link "For Agents link" [ref=e454] [cursor=pointer]:
+                - /url: /foragents
+                - text: For Agents
+            - listitem [ref=e455]:
+              - link "Find an Agent" [ref=e456] [cursor=pointer]:
+                - /url: https://agent.travelers.com/search
+        - generic [ref=e457]:
+          - heading "Legal & Compliance" [level=2] [ref=e458]
+          - list [ref=e459]:
+            - listitem [ref=e460]:
+              - link "Terms of Service link" [ref=e461] [cursor=pointer]:
+                - /url: /about-travelers/legal
+                - text: Terms of Service
+            - listitem [ref=e462]:
+              - link "Privacy and Security Statements link" [ref=e463] [cursor=pointer]:
+                - /url: /about-travelers/privacy-statements
+                - text: Privacy and Security Statements
+            - listitem [ref=e464]:
+              - link "Cookie Settings link" [ref=e465] [cursor=pointer]:
+                - /url: javascript:void(0);
+                - text: Do Not Sell or Share My Information
+            - listitem [ref=e466]:
+              - link "Accessibility link" [ref=e467] [cursor=pointer]:
+                - /url: /about-travelers/accessibility
+                - text: Accessibility
+            - listitem [ref=e468]:
+              - link "Producer Compensation Disclosure (United States)" [ref=e469] [cursor=pointer]:
+                - /url: /about-travelers/producer-compensation-disclosure
+                - text: Producer Compensation Disclosure
+            - listitem [ref=e470]:
+              - link "Link to Legal Entity Information" [ref=e471] [cursor=pointer]:
+                - /url: /about-travelers/subsidiaries
+                - text: Legal Entity Information
+      - paragraph [ref=e474]: "*InsuraMatch, LLC, a Travelers-owned insurance agency, performs certain sales and fulfillment services for Travelers. InsuraMatch can offer products from Travelers and non-affiliated insurance companies. Availability of Travelers’ products may vary by state and channel. Certain products in certain states may not be available on a standalone basis, and in certain states, including but not limited to California, products must be obtained through a local independent agent."
+  - region [ref=e475]:
+    - dialog "Privacy" [ref=e476]:
+      - generic [ref=e478]:
+        - generic [ref=e481]:
+          - text: We use cookies to deliver the best possible experience on our website and enable personalized advertising. By using our site, you agree to our
+          - link "Terms of Service" [ref=e482] [cursor=pointer]:
+            - /url: https://www.travelers.com/about-travelers/legal
+          - text: and consent to the practices described in our
+          - link "Privacy Statement" [ref=e483] [cursor=pointer]:
+            - /url: https://www.travelers.com/about-travelers/privacy-statements
+          - text: ", which includes information about the cookies we use. You may accept all cookies or manage preferences. Cookies are enabled unless you manage preferences."
+        - button "MANAGE PREFERENCES, Opens the preference center dialog" [ref=e486] [cursor=pointer]: MANAGE PREFERENCES
+      - button "Close" [ref=e488] [cursor=pointer]
+```
